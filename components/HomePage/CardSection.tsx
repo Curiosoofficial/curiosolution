@@ -3,6 +3,7 @@ import React from "react";
 import { PinContainer } from "../ui/3d-pin";
 import { cardInfo } from "@/constants";
 import Image from "next/image";
+import Button from "../ui/Button";
 
 const CardSection = () => {
   return (
@@ -28,6 +29,8 @@ const CardSection = () => {
           </PinContainer>
         ))}
       </div>
+
+      <Button/>
     </section>
   );
 };

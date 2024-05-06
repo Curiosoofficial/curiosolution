@@ -1,5 +1,4 @@
-import { describe } from "node:test";
-import { title } from "process";
+
 
 export const navLinks = [
     {
@@ -10,6 +9,10 @@ export const navLinks = [
 
       route: "/ueber-uns",
       label: "Über uns",
+    },
+    {
+      route: "/portfolio",
+      label: "Portfolio",
     },
     {
       route: "/preise",
@@ -27,38 +30,38 @@ export const navLinks = [
     {
       source: "/cardImages/internet.png",
       title: "WEBDESIGN",
-      describe: "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      describe: "Individuell gestaltete Webseiten, die Ihre Marke perfekt repräsentieren und Ihre Zielgruppe ansprechen.",
     },
 
     {
       source: "/cardImages/location.png",
       title: "SEO",
-      describe: "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      describe: "Optimierung Ihrer Webseite für Suchmaschinen, um die Sichtbarkeit zu steigern und mehr Kunden anzuziehen.",
     },
 
     {
       source: "/cardImages/media.png",
-      title: "SEO",
-      describe: "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      title: "SOCIAL MEDIA",
+      describe: "Erstellung und Verwaltung Ihrer Social-Media-Profile, um Ihre Reichweite zu erhöhen und mit Kunden zu interagieren.",
     }
   ];
 
 
   export const benefits = [
     {
-      title: "TURN AN OFFER TO ALL CASH",
-      content: "Inhalt für Vorteil 1...",
+      title: "INDIVIDUELLE WEBSEITEN",
+      content: "Wir erstellen individuelle Webseiten, die perfekt auf die Bedürfnisse und Ziele unserer Kunden zugeschnitten sind. Von der Gestaltung bis zur Funktionalität - jede Webseite ist einzigartig.",
     },
     {
-      title: "BUY BEFORE YOU SELL",
-      content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      title: "PROFESSIONELLES LOGODESIGN",
+      content: "Unser kreatives Design-Team entwirft individuelle Logos, die das Markenimage unserer Kunden perfekt repräsentieren. Von der Konzeption bis zur Umsetzung - wir schaffen ansprechende und einprägsame Logos, die den Kern Ihrer Marke widerspiegeln.",
     },
     {
-      title: "SAVE AN EXISTING DEAL",
-      content: "Inhalt für Vorteil 3...",
+      title: "SEO-OPTIMIERUNG",
+      content: "Unsere Experten für Suchmaschinenoptimierung (SEO) optimieren Ihre Webseite, um die Sichtbarkeit in Suchmaschinen zu verbessern und potenzielle Kunden anzuziehen. Wir verwenden bewährte Strategien, um Ihr Ranking zu steigern und den organischen Traffic zu erhöhen.",
     },
     {
-      title: "TURN AN OFFER TO ALL CASH",
-      content: "Inhalt für Bonus Vorteil...",
+      title: "ZUVERLÄSSIGER SUPPORT",
+      content: "Unser engagiertes Supportteam steht unseren Kunden jederzeit zur Verfügung, um Fragen zu beantworten, Probleme zu lösen und sie bei der Pflege und Wartung ihrer Webseiten zu unterstützen. Kundenzufriedenheit hat für uns oberste Priorität.",
     },
   ];

@@ -3,6 +3,7 @@ import { benefits } from "@/constants";
 import Image from "next/image";
 import React, { useState } from "react";
 import { MdArrowForward, MdArrowOutward } from "react-icons/md";
+import Button from "../ui/Button";
 
 const BenefitSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Zustand für den aktiven Abschnitt
@@ -13,9 +14,9 @@ const BenefitSection = () => {
 
   return (
     <section className="flex flex-col justify-center items-center py-24 px-72">
-      <h2 className="h1-bold font-ubuntu">CERTAINTY OF CASH</h2>
+      <h2 className="h1-bold font-ubuntu">ERFOLG GARANTIERT</h2>
 
-      <div className="py-36 flex w-full gap-10 justify-between items-center">
+      <div className="pt-36 pb-20 flex w-full gap-10 justify-between items-center">
         <div className="flex flex-col justify-center items-center gap-10">
           {benefits.map((benefit, index) => (
             <div
@@ -54,9 +55,10 @@ const BenefitSection = () => {
             alt="Gold"
             width={940}
             height={827}
-          />
+            />
         
       </div>
+      <Button/>
     </section>
   );
 };
