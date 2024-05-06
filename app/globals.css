@@ -9,6 +9,18 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.hero-background {
+  background-image: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0) 0%, 
+    #000000 80%, 
+    #000 100%),
+    repeating-linear-gradient(to right, 
+    #ffffff30 0px, 
+    #000 1px, 
+    transparent 10px, 
+    transparent 10px);
+}
+
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;

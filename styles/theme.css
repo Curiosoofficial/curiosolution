@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  .hero-bold  {
+    @apply text-[166px] font-bold;
+  }
 
   .h1-bold {
     @apply text-[30px] font-bold leading-[42px] tracking-tighter;
@@ -109,3 +112,5 @@
     );
   }
 }
+
+

@@ -10,7 +10,7 @@ export const navLinks = [
     },
     {
       route: "/preise",
-      label: "Unser Service",
+      label: "Preise",
     },
     {
       

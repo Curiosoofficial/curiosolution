@@ -4,14 +4,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-5 px-32">
+    <nav className="flex items-center justify-between py-10 px-32 absolute top-0 w-full z-50">
       <div>
-        <p>Curiosolutions</p>
+        <p className="h1-bold">Curiosolutions</p>
       </div>
       <div className="flex">
         {navLinks.map((link) => (
           <Link key={link.label} href={link.route}>
-            <p className="pl-3">{link.label}</p>
+            <p className="pl-10 paragraph-regular">{link.label}</p>
           </Link>
         ))}
       </div>
