@@ -1,3 +1,4 @@
+import BenefitSection from "@/components/HomePage/BenefitSection";
 import CardSection from "@/components/HomePage/CardSection";
 import HeroSection from "@/components/HomePage/HeroSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <main className="">
       <HeroSection/>
       <CardSection/>
+      <BenefitSection/>
     </main>
   );
 }

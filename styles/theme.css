@@ -21,7 +21,7 @@
   }
 
   .h3-bold {
-    @apply text-[27px] font-bold leading-[26px];
+    @apply text-[33px] font-bold leading-[26px];
   }
 
   .h3-semibold {
