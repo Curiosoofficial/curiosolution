@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-10 px-32 absolute top-0 w-full z-50">
       <div>
-        <p className="h1-bold">Curiosolutions</p>
+        <p className="h3-bold">Curiosolutions.</p>
       </div>
       <div className="flex">
         {navLinks.map((link) => (

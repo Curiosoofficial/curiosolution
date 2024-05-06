@@ -9,11 +9,11 @@
   }
 
   .h1-bold {
-    @apply text-[30px] font-bold leading-[42px] tracking-tighter;
+    @apply text-[130px] font-bold leading-[42px] tracking-tighter;
   }
 
   .h2-bold {
-    @apply text-[24px] font-bold leading-[31.2px];
+    @apply text-[84px] font-bold leading-[31.2px];
   }
 
   .h2-semibold {
@@ -21,7 +21,7 @@
   }
 
   .h3-bold {
-    @apply text-[20px] font-bold leading-[26px];
+    @apply text-[27px] font-bold leading-[26px];
   }
 
   .h3-semibold {
