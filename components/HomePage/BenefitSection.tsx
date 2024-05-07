@@ -29,7 +29,7 @@ const BenefitSection = () => {
               }`}
             >
               <p
-                className={`h3-bold flex justify-between items-center gap-2 ${
+                className={`h3-bold flex justify-between items-center gap-2 font-ubuntu ${
                   activeIndex === index ? "text-accent-yellow" : ""
                 }`}
               >

@@ -65,3 +65,5 @@ export const navLinks = [
       content: "Unser engagiertes Supportteam steht unseren Kunden jederzeit zur Verfügung, um Fragen zu beantworten, Probleme zu lösen und sie bei der Pflege und Wartung ihrer Webseiten zu unterstützen. Kundenzufriedenheit hat für uns oberste Priorität.",
     },
   ];
+
+  
