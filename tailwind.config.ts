@@ -21,6 +21,7 @@ module.exports = {
         "primary": "#000000",
         "secondary": "#2c2c2c",
         "accent-yellow": "#f6b110",
+        "text-secondary": "#acacac",
       },
       fontFamily: {
         ubuntu: ["var(--font-ubuntu)"],

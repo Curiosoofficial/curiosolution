@@ -25,7 +25,7 @@ const CardSection = () => {
               height={100}
             />
             <h3 className="h3-bold">{item.title}</h3>
-            <p className="text-center">{item.describe}</p>
+            <p className="text-center text-text-secondary">{item.describe}</p>
           </PinContainer>
         ))}
       </div>

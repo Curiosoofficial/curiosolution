@@ -42,7 +42,7 @@ const BenefitSection = () => {
               </p>
               {activeIndex === index && (
                 <div className="mt-5">
-                  <p>{benefit.content}</p>
+                  <p className="text-text-secondary">{benefit.content}</p>
                 </div>
               )}
             </div>
