@@ -44,9 +44,9 @@ const HowSection = () => {
   const { title1, text1, image, cardTitle } = sectionContents[selectedSection];
 
   return (
-    <section className="flex flex-col justify-center items-center py-24 px-72">
+    <section className="flex flex-col justify-center items-center py-16 px-72">
       <h2 className="h1-bold font-ubuntu">HOW IT WORKS</h2>
-      <div className="flex flex-col items-start justify-start py-36 flex-grow w-full px-10 ">
+      <div className="flex flex-col items-start justify-start pt-12 flex-grow w-full px-10 ">
         <div className="flex items-center gap-5 justify-start flex-grow w-full border-b-2 pb-4">
           {/* Navigationsleiste */}
           {Object.keys(sectionContents).map((section) => (

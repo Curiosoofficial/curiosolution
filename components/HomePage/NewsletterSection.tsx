@@ -2,9 +2,9 @@ import React from "react";
 
 const NewsletterSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-24 px-72">
+    <section className="flex flex-col justify-center items-center py-16 px-72">
       <h2 className="h2-bold font-ubuntu">NEWSLETTER</h2>
-      <p className="text-center pt-20 text-text-secondary">
+      <p className="text-center pt-12 text-text-secondary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo nulla
         sequi ad labore maxime ipsum cumque nostrum eius dolor tempore.
       </p>

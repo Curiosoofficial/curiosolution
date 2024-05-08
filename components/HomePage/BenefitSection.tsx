@@ -13,10 +13,10 @@ const BenefitSection = () => {
   };
 
   return (
-    <section className="flex flex-col justify-center items-center py-24 px-72">
+    <section className="flex flex-col justify-center items-center py-16 px-72">
       <h2 className="h1-bold font-ubuntu">ERFOLG GARANTIERT</h2>
 
-      <div className="pt-36 pb-20 flex w-full gap-10 justify-between items-center">
+      <div className="pt-12 pb-20 flex w-full gap-10 justify-between items-center">
         <div className="flex flex-col justify-center items-center gap-10">
           {benefits.map((benefit, index) => (
             <div

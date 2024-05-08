@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-between items-center">
+    <footer className="flex flex-col justify-between items-center gap-12 py-16">
       <div className="flex w-full justify-between items-center px-24">
         <div className="flex flex-col justify-center items-center gap-4">
           <div className="flex items-center justify-center">
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center px-24 py-11">
+      <div className="flex items-center justify-center px-24 ">
         <p className="text-text-secondary">
           Curiosolutions<span className="text-accent-yellow">.</span> © 2024 WebAgentur Zürich
         </p>

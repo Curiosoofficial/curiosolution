@@ -9,27 +9,27 @@
   }
 
   .h1-bold {
-    @apply text-[130px] font-bold leading-[42px] tracking-tighter;
+    @apply text-[130px] font-bold  tracking-tighter;
   }
 
   .h2-bold {
-    @apply text-[84px] font-bold leading-[31.2px];
+    @apply text-[84px] font-bold;
   }
 
   .h2-semibold {
-    @apply text-[24px] font-semibold leading-[31.2px];
+    @apply text-[24px] font-semibold;
   }
 
   .h3-bold {
-    @apply text-[33px] font-bold leading-[26px];
+    @apply text-[33px] font-bold;
   }
 
   .h3-semibold {
-    @apply text-[20px] font-semibold leading-[24.8px];
+    @apply text-[20px] font-semibold ;
   }
 
   .base-medium {
-    @apply text-[18px] font-medium leading-[25.2px];
+    @apply text-[18px] font-medium ;
   }
 
   .base-semibold {
