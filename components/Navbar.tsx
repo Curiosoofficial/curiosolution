@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-10 px-32 absolute top-0 w-full z-50">
       <div>
+        <Link href="/">
         <p className="h3-bold">Curiosolutions<span className="text-accent-yellow">.</span> </p>
+        </Link>
       </div>
       <div className="flex gap-10">
         {navLinks.map((link) => (

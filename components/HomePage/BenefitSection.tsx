@@ -56,7 +56,7 @@ const BenefitSection = () => {
             width={940}
             height={827}
             className="rounded-2xl"
-            />
+          />
         
       </div>
       <Button/>
