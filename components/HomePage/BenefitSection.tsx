@@ -55,6 +55,7 @@ const BenefitSection = () => {
             alt="Gold"
             width={940}
             height={827}
+            className="rounded-2xl"
             />
         
       </div>
