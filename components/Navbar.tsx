@@ -19,7 +19,9 @@ const Navbar = () => {
         ))}
       </div>
       <div>
-        <Button/>
+        <Link href="/kontakt">
+          <Button/>
+        </Link>
       </div>
     </nav>
   );
