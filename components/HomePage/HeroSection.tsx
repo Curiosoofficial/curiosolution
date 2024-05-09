@@ -1,12 +1,25 @@
+"use client"
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
+import { FadeInFromLeft, FadeInFromRight } from "@/constants/animations";
 
 const HeroSection = () => {
   return (
     <section className="hero-background flex flex-col justify-center items-center py-24">
       <div className="flex flex-col items-center">
-        <h1 className="hero-bold font-radwave pb-10">FIND YOUR HOME</h1>
-        <div style={{ position: "relative" }}>
+        <motion.h1 
+          className="hero-bold font-radwave pb-10"
+          variants={FadeInFromLeft}
+          initial="initial"
+          animate="animate"
+        >FIND YOUR HOME</motion.h1>
+        <motion.div 
+          style={{ position: "relative" }}
+          variants={FadeInFromRight}
+          initial="initial"
+          animate="animate"
+        >
           <Image
             src="/hero.png"
             alt="hero image"
@@ -19,7 +32,7 @@ const HeroSection = () => {
             className="bg-accent-yellow w-[400px] h-[80px] rounded-3xl absolute top-0 left-1/2 transform -translate-x-1/2"
             style={{ marginTop: "-40px" }}
           ></div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="flex gap-[90px] items-center pt-20">
