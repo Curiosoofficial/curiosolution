@@ -24,7 +24,7 @@ module.exports = {
         "text-secondary": "#acacac",
       },
       fontFamily: {
-        ubuntu: ["var(--font-ubuntu)"],
+        radwave: ["Radwave", "sans-serif"],
         openSans: ["var(--font-openSans)"],
       },
       screens: {

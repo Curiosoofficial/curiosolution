@@ -3,7 +3,7 @@ import React from "react";
 const NewsletterSection = () => {
   return (
     <section className="flex flex-col justify-center items-center py-16 px-72">
-      <h2 className="h2-bold font-ubuntu">NEWSLETTER</h2>
+      <h2 className="h2-bold font-radwave">NEWSLETTER</h2>
       <p className="text-center pt-3 text-text-secondary"> 
         Abonnieren Sie unseren Newsletter, um stets über die neuesten Entwicklungen, Angebote und exklusive Einblicke informiert zu bleiben!
       </p>

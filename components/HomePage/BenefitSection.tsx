@@ -14,7 +14,7 @@ const BenefitSection = () => {
 
   return (
     <section className="flex flex-col justify-center items-center py-16 px-72">
-      <h2 className="h1-bold font-ubuntu">ERFOLG GARANTIERT</h2>
+      <h2 className="h1-bold font-radwave">ERFOLG GARANTIERT</h2>
 
       <div className="pt-12 pb-20 flex w-full gap-10 justify-between items-center">
         <div className="flex flex-col justify-center items-center gap-10">
@@ -29,7 +29,7 @@ const BenefitSection = () => {
               }`}
             >
               <p
-                className={`h3-bold flex justify-between items-center gap-2 font-ubuntu ${
+                className={`h3-bold flex justify-between items-center gap-2 font-radwave ${
                   activeIndex === index ? "text-accent-yellow" : ""
                 }`}
               >

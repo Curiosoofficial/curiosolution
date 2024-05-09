@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="hero-background flex flex-col justify-center items-center py-24">
       <div className="flex flex-col items-center">
-        <h1 className="hero-bold font-ubuntu pb-10">FIND YOUR HOME</h1>
+        <h1 className="hero-bold font-radwave pb-10">FIND YOUR HOME</h1>
         <div style={{ position: "relative" }}>
           <Image
             src="/hero.png"

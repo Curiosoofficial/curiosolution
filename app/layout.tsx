@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import { Ubuntu, Open_Sans } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const ubuntu = Ubuntu({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '700'],
-  variable: '--font-ubuntu'
-})
+
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -30,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.variable} ${openSans.variable} bg-primary text-white font-openSans`}>
+      <body className={`${openSans.variable} bg-primary text-white font-openSans`}>
         <Navbar />
         {children}
       </body>

@@ -63,14 +63,14 @@ const HowSection = () => {
 
   return (
       <section className="flex flex-col justify-center items-center py-16 px-72">
-          <h2 className="h1-bold font-ubuntu">WIE ES FUNKTUNIERT</h2>
+          <h2 className="h1-bold font-radwave">WIE ES FUNKTUNIERT</h2>
           <div className="flex flex-col items-start justify-start pt-12 flex-grow w-full px-10 ">
               <div className="flex items-center gap-5 justify-start flex-grow w-full border-b-2 pb-4">
                   {/* Navigationsleiste */}
                   {Object.keys(sectionContents).map((section) => (
                       <p
                           key={section}
-                          className={`h3-bold font-ubuntu cursor-pointer text-text-secondary ${
+                          className={`h3-bold font-radwave cursor-pointer text-text-secondary ${
                               selectedSection === section && "!text-accent-yellow"
                           }`}
                           onClick={() => handleSectionClick(section)}
@@ -83,19 +83,19 @@ const HowSection = () => {
               <div className="flex items-stretch justify-center gap-5 max-lg:flex-col max-sm:items-center pt-10">
                   <div className="flex flex-col justify-center items-start w-[600px] gap-5 max-sm:w-[300px] ">
                       <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
-                          <h4 className="h4-bold text-primary-1">{title1}</h4>
+                          <h4 className="font-radwave h4-bold text-primary-1">{title1}</h4>
                           <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                               {text1}
                           </p>
                       </div>
                       <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
-                          <h4 className="h4-bold text-primary-1">{title2}</h4>
+                          <h4 className="font-radwave h4-bold text-primary-1">{title2}</h4>
                           <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                               {text2}
                           </p>
                       </div>
                       <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
-                          <h4 className="h4-bold text-primary-1">{title3}</h4>
+                          <h4 className="font-radwave h4-bold text-primary-1">{title3}</h4>
                           <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                               {text3}
                           </p>

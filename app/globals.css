@@ -5,6 +5,13 @@
 
 @import url("../styles/theme.css");
 
+@font-face {
+  font-family: 'Radwave'; /* Der Name, mit dem du deine Schriftart referenzierst */
+  src: url('/fonts/RadwaveFont-Demo.otf') format('opentype'); /* Passe den Pfad entsprechend an */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }

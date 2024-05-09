@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h4 className="font-ubuntu h3-bold pb-2">COMPANY</h4>
+          <h4 className="font-radwave h3-bold pb-2">COMPANY</h4>
           <p>How Curiosolutions Works</p>
           <p>Exchange Rates</p>
           <p>What you cannot ship</p>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h4 className="font-ubuntu h3-bold pb-2">ABOUT CURIOSOLUTIONS</h4>
+          <h4 className="font-radwave h3-bold pb-2">ABOUT CURIOSOLUTIONS</h4>
           <p>Curiosolutions Reviews</p>
           <p>News & Press</p>
           <p>Partner with  Curiosolutions</p>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h4 className="font-ubuntu h3-bold pb-2">SOCIAL MEDIA</h4>
+          <h4 className="font-radwave h3-bold pb-2">SOCIAL MEDIA</h4>
           <p>Facebook.com</p>
           <p>Instagram.com</p>
           <p>Linkedin.com</p>
