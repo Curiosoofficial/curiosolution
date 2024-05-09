@@ -10,7 +10,7 @@ const CardSection = () => {
     <section className="flex flex-col justify-center items-center py-16 px-72">
       <h2 className="h1-bold font-radwave">VIELFÄLTIGKEIT IMMER</h2>
 
-      <div className="flex py-36">
+      <div className="flex pt-24 pb-40">
         {cardInfo.map((item) => (
           <PinContainer
             title={item.title}
