@@ -8,7 +8,7 @@ import Button from "../ui/Button";
 const CardSection = () => {
   return (
     <section className="flex flex-col justify-center items-center py-16 px-72">
-      <h2 className="h1-bold font-ubuntu">CERTAINTY OF CASH</h2>
+      <h2 className="h1-bold font-ubuntu">VIELFÄLTIGKEIT IMMER</h2>
 
       <div className="flex py-36">
         {cardInfo.map((item) => (

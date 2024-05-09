@@ -9,7 +9,7 @@
   }
 
   .h1-bold {
-    @apply text-[130px] font-bold  tracking-tighter;
+    @apply text-[127px] font-bold  tracking-tighter;
   }
 
   .h2-bold {
@@ -26,6 +26,10 @@
 
   .h3-semibold {
     @apply text-[20px] font-semibold ;
+  }
+
+  .h4-bold {
+    @apply text-[30px] font-bold;
   }
 
   .base-medium {
@@ -84,9 +88,7 @@
     @apply text-[10px] font-normal leading-[13px];
   }
 
-  .placeholder {
-    @apply placeholder:text-light-400 dark:placeholder:text-light-500;
-  }
+  
 
   .invert-colors {
     @apply invert dark:invert-0;
