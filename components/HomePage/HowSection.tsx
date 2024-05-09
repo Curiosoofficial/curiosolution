@@ -64,8 +64,8 @@ const HowSection = () => {
   return (
       <section className="flex flex-col justify-center items-center py-16 px-72">
           <h2 className="h1-bold font-radwave">WIE ES FUNKTUNIERT</h2>
-          <div className="flex flex-col items-start justify-start pt-12 flex-grow w-full px-10 ">
-              <div className="flex items-center gap-5 justify-start flex-grow w-full border-b-2 pb-4">
+          <div className="flex flex-col items-start justify-start pt-12 flex-grow w-full px-10 max-lg:items-center">
+              <div className="flex items-center gap-5 justify-start flex-grow w-full border-b-2 pb-4 max-lg:justify-center">
                   {/* Navigationsleiste */}
                   {Object.keys(sectionContents).map((section) => (
                       <p

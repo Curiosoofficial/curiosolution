@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 const Footer = () => {
   return (
     <footer className="flex flex-col justify-between items-center gap-12 py-16">
-      <div className="flex w-full justify-between items-center px-24">
+      <div className="flex w-full justify-between items-center px-24 max-lg:flex-col max-lg:text-center max-lg:gap-16">
         <div className="flex flex-col justify-center items-center gap-4">
           <div className="flex items-center justify-center">
             <Image src="/logo/icon.png" alt="logo" width={40} height={40} />

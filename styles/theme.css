@@ -5,11 +5,11 @@
 
 @layer utilities {
   .hero-bold  {
-    @apply text-[124px] font-bold;
+    @apply text-[124px] font-bold max-lg:text-[72px];
   }
 
   .h1-bold {
-    @apply text-[80px] font-bold tracking-wide;
+    @apply text-[80px] font-bold tracking-wide max-lg:text-[24px];
   }
 
   .h2-bold {
@@ -21,7 +21,7 @@
   }
 
   .h3-bold {
-    @apply text-[24px] font-bold;
+    @apply text-[24px] font-bold max-lg:text-[20px];
   }
 
   .h3-semibold {
