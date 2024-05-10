@@ -54,7 +54,7 @@ export const navLinks = [
   export const benefits = [
     {
       title: "INDIVIDUELLE WEBSEITEN",
-      content: "Wir erstellen individuelle Webseiten, die perfekt auf die Bedürfnisse und Ziele unserer Kunden zugeschnitten sind. Von der Gestaltung bis zur Funktionalität - jede Webseite ist einzigartig.",
+      content: "Wir erstellen individuelle Webseiten, die perfekt auf die Bedürfnisse und Ziele unserer Kunden zugeschnitten sind. Von der Gestaltung bis zur Funktionalität - jede Webseite ist einzigartig. Von der Gestaltung bis zur Funktionalität - jede Webseite ist einzigartig.",
     },
     {
       title: "PROFESSIONELLES LOGODESIGN",

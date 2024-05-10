@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import { FadeInFromLeft, FadeInFromRight } from "@/constants/animations";
+import { HeroFadeInFromRight, HeroFadeInFromLeft, FadeInFromLeft } from "@/constants/animations";
 
 const HeroSection = () => {
   return (
@@ -10,13 +10,13 @@ const HeroSection = () => {
       <div className="flex flex-col items-center">
         <motion.h1 
           className="hero-bold font-radwave pb-10"
-          variants={FadeInFromLeft}
+          variants={HeroFadeInFromLeft}
           initial="initial"
           animate="animate"
         >FIND YOUR HOME</motion.h1>
         <motion.div 
           style={{ position: "relative" }}
-          variants={FadeInFromRight}
+          variants={HeroFadeInFromRight}
           initial="initial"
           animate="animate"
         >
@@ -35,13 +35,19 @@ const HeroSection = () => {
         </motion.div>
       </div>
 
-      <div className="flex gap-[90px] items-center pt-20">
+      <motion.div
+        className="flex gap-[90px] items-center pt-20"
+        variants={FadeInFromLeft}
+        initial="initial"
+        whileInView={"animate"}
+        viewport={{ once: true }}
+      >
         <h3 className="h3-bold">WebdevbyLuka</h3>
         <h3 className="h3-bold">TodorovicPartner</h3>
         <h3 className="h3-bold">ArztPraxis Dr. Ilic</h3>
         <h3 className="h3-bold">Fahrschule Gordana</h3>
         <h3 className="h3-bold">Daetzis</h3>
-      </div>
+      </motion.div>
     </section>
   );
 };

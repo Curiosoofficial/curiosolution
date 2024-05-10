@@ -4,6 +4,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { MdArrowForward, MdArrowOutward } from "react-icons/md";
 import Button from "../ui/Button";
+import { motion } from "framer-motion";
+import { BenefitsFadeInAnimation, FadeInFromLeft, FadeInFromRight } from "@/constants/animations";
 
 const BenefitSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Zustand für den aktiven Abschnitt
@@ -14,19 +16,32 @@ const BenefitSection = () => {
 
   return (
     <section className="flex flex-col justify-center items-center py-16 px-72">
-      <h2 className="h1-bold font-radwave">ERFOLG GARANTIERT</h2>
+      <motion.h2
+        className="h1-bold font-radwave"
+        variants={FadeInFromRight}
+        initial="initial"
+        whileInView={"animate"}
+        viewport={{ once: true }}
+      >
+        ERFOLG GARANTIERT
+      </motion.h2>
 
       <div className="pt-12 pb-20 flex w-full gap-10 justify-between items-center max-lg:flex-col">
-        <div className="flex flex-col justify-center items-center gap-10">
+        <div className="flex flex-col justify-center items-center ">
           {benefits.map((benefit, index) => (
-            <div
+            <motion.div
               key={index}
               onClick={() => handleClick(index)}
-              className={`cursor-pointer w-[650px] ${
+              className={`cursor-pointer w-[650px] py-7 px-10 ${
                 activeIndex === index
-                  ? "bg-secondary py-7 px-10 rounded-xl"
+                  ? "bg-secondary rounded-xl"
                   : ""
               }`}
+              variants={BenefitsFadeInAnimation}
+              initial="initial"
+              whileInView={"animate"}
+              viewport={{ once: true }}
+              custom={index}
             >
               <p
                 className={`h3-bold flex justify-between items-center gap-2 font-radwave ${
@@ -45,11 +60,16 @@ const BenefitSection = () => {
                   <p className="text-text-secondary">{benefit.content}</p>
                 </div>
               )}
-            </div>
+            </motion.div>
           ))}
         </div>
 
-        
+        <motion.div
+          variants={FadeInFromRight}
+          initial="initial"
+          whileInView={"animate"}
+          viewport={{ once: true }}
+        >
           <Image
             src="/3dIcons/placeholder.jpg"
             alt="Gold"
@@ -57,9 +77,9 @@ const BenefitSection = () => {
             height={827}
             className="rounded-2xl"
           />
-        
+        </motion.div>
       </div>
-      <Button/>
+      <Button />
     </section>
   );
 };
