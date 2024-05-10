@@ -21,7 +21,7 @@ const HowSection = () => {
       text3:
         "Unser erfahrenes Entwicklungsteam setzt das Design um und sorgt für eine reibungslose Funktion Ihrer Website.",
       cardTitle: "WEBDESIGN",
-      image: "/3dIcons/placeholder.jpg",
+      image: "/howImages/webdesign.png",
     },
     SEO: {
       title1: "ANALYSE",
@@ -34,7 +34,7 @@ const HowSection = () => {
       text3:
         "Wir überwachen kontinuierlich Ihre Rankings und passen unsere Strategie an, um sicherzustellen, dass Sie langfristig erfolgreich sind.",
       cardTitle: "SEO",
-      image: "/3dIcons/placeholder.jpg",
+      image: "/howImages/seo.png",
     },
     SOCIALMEDIA: {
       title1: "STRATEGIE",
@@ -47,7 +47,7 @@ const HowSection = () => {
       text3:
         "Wir interagieren aktiv mit Ihrer Zielgruppe, um die Markenbekanntheit zu steigern und Ihre Online-Präsenz zu stärken.",
       cardTitle: "SOCIAL MEDIA",
-      image: "/3dIcons/placeholder.jpg",
+      image: "/howImages/logo.png",
     },
     LOGODESIGN: {
       title1: "KONZEPT",
@@ -60,7 +60,7 @@ const HowSection = () => {
       text3:
         "Nach Ihrem Feedback verfeinern wir das Design, um sicherzustellen, dass es Ihren Erwartungen entspricht und Ihre Marke optimal repräsentiert.",
       cardTitle: "LOGO DESIGN",
-      image: "/3dIcons/placeholder.jpg",
+      image: "/howImages/logo.png",
     },
   };
 
@@ -108,36 +108,60 @@ const HowSection = () => {
 
         <div className="flex items-stretch justify-center gap-5 max-lg:flex-col max-sm:items-center pt-10">
           <div className="flex flex-col justify-center items-start w-[600px] gap-5 max-sm:w-[300px] ">
-            <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
+            <motion.div
+              className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5"
+              variants={FadeInFromLeft}
+              initial="initial"
+              whileInView={"animate"}
+              viewport={{ once: true }}
+            >
               <h4 className="font-radwave h4-bold text-primary-1">{title1}</h4>
               <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                 {text1}
               </p>
-            </div>
-            <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
+            </motion.div>
+            <motion.div
+              className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5"
+              variants={FadeInFromLeft}
+              initial="initial"
+              whileInView={"animate"}
+              viewport={{ once: true }}
+            >
               <h4 className="font-radwave h4-bold text-primary-1">{title2}</h4>
               <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                 {text2}
               </p>
-            </div>
-            <div className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
+            </motion.div>
+            <motion.div
+              className="flex-grow flex flex-col justify-center bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5"
+              variants={FadeInFromLeft}
+              initial="initial"
+              whileInView={"animate"}
+              viewport={{ once: true }}
+            >
               <h4 className="font-radwave h4-bold text-primary-1">{title3}</h4>
               <p className="text-primary-2 font-spaceGrotesk text-text-secondary">
                 {text3}
               </p>
-            </div>
+            </motion.div>
           </div>
-          <div className="w-[600px] max-sm:w-[300px] flex flex-col justify-center gap-3 bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5">
+          <motion.div 
+            className="w-[600px] max-sm:w-[300px] flex flex-col justify-center gap-3 bg-gradient-to-br from-neutral-950 via-black to-black border border-white/[0.1] rounded-2xl p-5"
+            variants={FadeInFromRight}
+            initial="initial"
+            whileInView={"animate"}
+            viewport={{ once: true }}
+          >
             <Image
               src={image}
               alt={selectedSection}
-              width={940}
-              height={827}
+              width={1920}
+              height={1080}
               className="rounded-2xl"
             />
             <h3 className="h3-bold pt-3">{cardTitle}</h3>
             <p className="text-text-secondary">Mehr Lesen</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

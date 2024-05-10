@@ -12,6 +12,20 @@
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f6b110;
+  border-radius: 1em;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
 }

@@ -29,7 +29,7 @@ const HeroSection = () => {
           />
 
           <div
-            className="bg-accent-yellow w-[400px] h-[80px] rounded-3xl absolute top-0 left-1/2 transform -translate-x-1/2"
+            className="bg-accent-yellow w-[400px] h-[80px] rounded-2xl absolute top-0 left-1/2 transform -translate-x-1/2"
             style={{ marginTop: "-40px" }}
           ></div>
         </motion.div>
