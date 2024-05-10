@@ -5,14 +5,14 @@ import { cardInfo } from "@/constants";
 import Image from "next/image";
 import Button from "../ui/Button";
 import { motion } from "framer-motion";
-import { CardsFadeInAnimation, FadeInFromLeft, FadeInFromRight } from "@/constants/animations";
+import { CardsFadeInAnimation, FadeInFromBottom, FadeInFromTop } from "@/constants/animations";
 
 const CardSection = () => {
   return (
     <section className="flex flex-col justify-center items-center py-16 px-72">
       <motion.h2
         className="h1-bold font-radwave"
-        variants={FadeInFromRight}
+        variants={FadeInFromTop}
         initial="initial"
         whileInView={"animate"}
         viewport={{ once: true }}
@@ -49,7 +49,7 @@ const CardSection = () => {
         ))}
       </div>
       <motion.div
-        variants={FadeInFromLeft}
+        variants={FadeInFromBottom}
         initial="initial"
         whileInView={"animate"}
         viewport={{ once: true }}

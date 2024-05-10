@@ -34,7 +34,7 @@ export const NavbarButtonFadeInAnimation = {
         opacity: 1,
         y: 0,
         transition: {
-            delay: 0.3
+            delay: 0.3,
         }
     },
 }
@@ -89,6 +89,34 @@ export const FadeInFromRight = {
     animate:{
         opacity: 1,
         x: 0,
+        transition: {
+            delay: 0.3
+        }
+    },
+}
+
+export const FadeInFromTop = {
+    initial: {
+        opacity: 0,
+        y: -200,
+    },
+    animate:{
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.3
+        }
+    },
+}
+
+export const FadeInFromBottom = {
+    initial: {
+        opacity: 0,
+        y: 200,
+    },
+    animate:{
+        opacity: 1,
+        y: 0,
         transition: {
             delay: 0.3
         }

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { MdArrowForward, MdArrowOutward } from "react-icons/md";
 import Button from "../ui/Button";
 import { motion } from "framer-motion";
-import { BenefitsFadeInAnimation, FadeInFromLeft, FadeInFromRight } from "@/constants/animations";
+import { BenefitsFadeInAnimation, FadeInFromBottom, FadeInFromLeft, FadeInFromRight, FadeInFromTop } from "@/constants/animations";
 
 const BenefitSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Zustand für den aktiven Abschnitt
@@ -18,7 +18,7 @@ const BenefitSection = () => {
     <section className="flex flex-col justify-center items-center py-16 px-72">
       <motion.h2
         className="h1-bold font-radwave"
-        variants={FadeInFromRight}
+        variants={FadeInFromTop}
         initial="initial"
         whileInView={"animate"}
         viewport={{ once: true }}
@@ -79,7 +79,14 @@ const BenefitSection = () => {
           />
         </motion.div>
       </div>
-      <Button />
+      <motion.div
+        variants={FadeInFromBottom}
+        initial="initial"
+        whileInView={"animate"}
+        viewport={{ once: true }}
+      >
+        <Button />
+      </motion.div>
     </section>
   );
 };

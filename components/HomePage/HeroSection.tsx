@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import { HeroFadeInFromRight, HeroFadeInFromLeft, FadeInFromLeft } from "@/constants/animations";
+import { HeroFadeInFromRight, HeroFadeInFromLeft } from "@/constants/animations";
 
 const HeroSection = () => {
   return (
@@ -37,10 +37,9 @@ const HeroSection = () => {
 
       <motion.div
         className="flex gap-[90px] items-center pt-20"
-        variants={FadeInFromLeft}
+        variants={HeroFadeInFromLeft}
         initial="initial"
-        whileInView={"animate"}
-        viewport={{ once: true }}
+        animate="animate"
       >
         <h3 className="h3-bold">WebdevbyLuka</h3>
         <h3 className="h3-bold">TodorovicPartner</h3>
