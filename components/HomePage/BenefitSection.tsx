@@ -71,10 +71,10 @@ const BenefitSection = () => {
           viewport={{ once: true }}
         >
           <Image
-            src="/3dIcons/placeholder.jpg"
+            src="/benefits.png"
             alt="Gold"
-            width={940}
-            height={827}
+            width={1920}
+            height={1080}
             className="rounded-2xl"
           />
         </motion.div>

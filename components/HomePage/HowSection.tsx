@@ -47,7 +47,7 @@ const HowSection = () => {
       text3:
         "Wir interagieren aktiv mit Ihrer Zielgruppe, um die Markenbekanntheit zu steigern und Ihre Online-Präsenz zu stärken.",
       cardTitle: "SOCIAL MEDIA",
-      image: "/howImages/logo.png",
+      image: "/howImages/socialmedia.png",
     },
     LOGODESIGN: {
       title1: "KONZEPT",
