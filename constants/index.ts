@@ -35,18 +35,29 @@ export const navLinks = [
       source: "/cardImages/internet.png",
       title: "WEBDESIGN",
       describe: "Individuell gestaltete Webseiten, die Ihre Marke perfekt repräsentieren und Ihre Zielgruppe ansprechen.",
+      link: "unser-service/webdesign",
     },
 
     {
       source: "/cardImages/location.png",
       title: "SEO",
       describe: "Optimierung Ihrer Webseite für Suchmaschinen, um die Sichtbarkeit zu steigern und mehr Kunden anzuziehen.",
+      link: "unser-service/seo",
     },
 
+    
     {
       source: "/cardImages/media.png",
       title: "SOCIAL MEDIA",
       describe: "Erstellung und Verwaltung Ihrer Social-Media-Profile, um Ihre Reichweite zu erhöhen und mit Kunden zu interagieren.",
+      link: "unser-service/social-media",
+    },
+
+    {
+      source: "/cardImages/media.png",
+      title: "LOGODESIGN",
+      describe: "Erstellung und Verwaltung Ihrer Social-Media-Profile, um Ihre Reichweite zu erhöhen und mit Kunden zu interagieren.",
+      link: "unser-service/logodesign",
     }
   ];
 
