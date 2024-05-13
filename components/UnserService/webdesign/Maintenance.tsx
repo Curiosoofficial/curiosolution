@@ -1,6 +1,7 @@
 import Button from "@/components/ui/Button"
 import InfoCard from "@/components/ui/InfoCard"
-import { infoCards3 } from "@/constants"
+import { infoCards3 } from "@/constants/infoCards"
+
 import React from 'react'
 
 const Maintenance = () => {

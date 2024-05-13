@@ -1,6 +1,7 @@
 import Button from "@/components/ui/Button";
 import InfoCard from "@/components/ui/InfoCard";
-import { infoCards2 } from "@/constants";
+import { infoCards2 } from "@/constants/infoCards";
+
 import React from "react";
 
 const WhatItNeeds = () => {
