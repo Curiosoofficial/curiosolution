@@ -150,3 +150,30 @@ export const infoCards2 = [
   }
 ];
 
+export const infoCards3 = [
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Sicherheit",
+    desc:
+      "Održavanjem sajta možete osigurati da je sajt bezbedan za posetioce i da se zaštitite od hakera i drugih online pretnji. To uključuje redovno ažuriranje softvera i pluginova, kao i proveravanje da li postoje neispravnosti u sigurnosti."
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Brza radnja",
+    desc:
+      "Sajtovi koji se redovno održavaju obično su brži od onih koji nisu, što može povećati posetu sajta i poboljšati korisničko iskustvo."
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "SEO",
+    desc:
+      "Redovno održavanje sajta takođe može poboljšati vašu poziciju u rezultatima pretrage, što može povećati posetu sajta i poboljšati poslovne rezultate."
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Funkcionalnost",
+    desc:
+      "Održavanjem sajta možete osigurati da svi linkovi rade ispravno, da forme za kontakt rade bez grešaka i da svi ostali delovi sajta funkcionišu bez problema."
+  }
+];
+
