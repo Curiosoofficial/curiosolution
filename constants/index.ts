@@ -107,6 +107,46 @@ export const infoCards = [
     source: "/3dIcons/calculator.svg",
     title: "Optimierte Webseite",
     desc:
-      "Die von uns erstellten Webseiten sind für alle Geräte optimiert: Desktops, Tablets und Mobiltelefone. Die Geschwindigkeit und Reaktionsfähigkeit der Webseite ist sehr wichtig, damit Benutzer und Besucher schnell und einfach durch die Webseite navigieren können.",
+      "Die von uns erstellten Webseiten sind für alle Geräte optimiert: Desktops, Tablets und Mobiltelefone. Die Geschwindigkeit der Webseite ist sehr wichtig, damit Benutzer und Besucher schnell und einfach durch die Webseite navigieren können.",
   }
 ];
+
+export const infoCards2 = [
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Design",
+    desc:
+      "Das Design der Website sollte attraktiv sein, leicht navigierbar und zum Thema der Website passen.",
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Inhalt",
+    desc:
+      "Der Inhalt der Website sollte von hoher Qualität sein, relevant und regelmäßig aktualisiert werden.",
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Funktionalität",
+    desc:
+      "Die Website sollte über alle erforderlichen Funktionen verfügen.",
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "SEO",
+    desc:
+      "Die Website sollte für Suchmaschinen optimiert sein, um in den Suchergebnissen gut platziert zu werden.",
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Responsivness",
+    desc:
+      "Die Website sollte auf Mobilgeräten leicht lesbar und funktional sein.",
+  },
+  {
+    source: "/3dIcons/calculator.svg",
+    title: "Sicherheit",
+    desc:
+      "Die Website sollte sicher für Besucher sein und vor Hackern und anderen Online-Bedrohungen geschützt werden.",
+  }
+];
+
