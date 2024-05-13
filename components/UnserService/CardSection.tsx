@@ -46,17 +46,12 @@ const CardSection = () => {
               />
               <h3 className="h3-bold">{item.title}</h3>
               <p className="text-center text-text-secondary">{item.describe}</p>
+              <p className="text-accent-yellow">Mehr erfahren</p>
             </PinContainer>
           </motion.div>
         ))}
       </div>
-      <motion.div
-        variants={FadeInFromBottom}
-        initial="initial"
-        animate="animate"
-      >
-        <Button />
-      </motion.div>
+      
     </section>
   )
 }
