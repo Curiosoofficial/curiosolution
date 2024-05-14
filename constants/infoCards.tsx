@@ -1,4 +1,4 @@
-import { FaChartLine, FaCogs, FaCreditCard, FaEdit, FaGoogle, FaLaptop, FaLifeRing, FaMobileAlt, FaPaintBrush, FaPalette, FaPencilAlt, FaRegGem, FaRegWindowRestore, FaRocket, FaSearch, FaSitemap, FaThumbsUp, FaTools, FaUserClock, FaUserFriends, FaUserLock, FaUserSecret, FaWordpressSimple } from "react-icons/fa";
+import { FaBriefcase, FaCalendarAlt, FaChartLine, FaCheckCircle, FaCogs, FaCreditCard, FaEdit, FaGoogle, FaHammer, FaLaptop, FaLifeRing, FaMobileAlt, FaPaintBrush, FaPalette, FaPencilAlt, FaRegGem, FaRegWindowRestore, FaRocket, FaSearch, FaSitemap, FaThumbsUp, FaTools, FaTruckLoading, FaUserClock, FaUserFriends, FaUserLock, FaUserSecret, FaWordpressSimple } from "react-icons/fa";
 
 export const infoCards = [
   {
@@ -42,17 +42,17 @@ export const infoCards2 = [
   {
     source: <FaGoogle className="cardIcon" />,
     title: "SEO",
-    desc: "Die Website sollte für Suchmaschinen optimiert sein, um in den Suchergebnissen gut platziert zu werden.",
+    desc: "Die Website sollte für Suchmaschinen optimiert sein, um gut platziert zu werden.",
   },
   {
     source: <FaMobileAlt className="cardIcon" />,
     title: "Responsivness",
-    desc: "Die Website sollte auf Mobilgeräten leicht lesbar und funktional sein.",
+    desc: "Die Website sollte auf allen Mobilgeräten leicht lesbar und funktional sein.",
   },
   {
     source: <FaUserLock className="cardIcon" />,
     title: "Sicherheit",
-    desc: "Die Website sollte sicher für Besucher sein und vor Hackern und anderen Online-Bedrohungen geschützt werden.",
+    desc: "Die Website sollte sicher für Besucher sein und vor Online-Bedrohungen geschützt werden.",
   },
 ];
 
@@ -130,33 +130,66 @@ export const infoCards4 = [
 export const infoCards5 = [
   {
     source: <FaUserFriends className="cardIcon" />,
-    title: "KundenSupport",
-    desc: "Kundenunterstützung hat oberste Priorität. Wir beantworten alle Ihre Nachrichten am selben Tag und stehen Ihnen jederzeit zur Verfügung.",
+    title: "Kundensupport",
+    desc: "Kundensupport hat oberste Priorität. Wir antworten in kurzer zeit und stehen immer zur Verfügung.",
   },
   {
     source: <FaEdit className="cardIcon" />,
-    title: "Schnelle Änderungen",
+    title: "Anpassung",
     desc: "Ihre Änderungen haben oberste Priorität. Wir garantieren schnelle Reaktionen auf Ihre Anpassungen innerhalb von 24 Stunden.",
   },
   {
     source: <FaRegGem className="cardIcon" />,
-    title: "Hohe Website-Qualität",
+    title: "Hohe Qualität",
     desc: "Qualität ohne Kompromisse. Unser Expertenteam schafft Websites, die sich visuell und technisch von anderen abheben.",
   },
   {
     source: <FaTools className="cardIcon" />,
-    title: "Kostenlose Entwicklung",
-    desc: "Wartung, die über die Fertigstellung hinausgeht. Wir bieten kostenlose Wartung, damit Ihre Website immer reibungslos läuft.",
+    title: "Entwicklung",
+    desc: "Entwicklung, die über die Fertigstellung hinausgeht. Wir bieten eine kostenlose Webentwicklung",
   },
   {
     source: <FaPalette className="cardIcon" />,
-    title: "Einzigartiges Design",
+    title: "Design",
     desc: "Ein Design, das nur Ihnen gehört. Wir gestalten Websites, die sich Ihrer Vision anpassen und Ihre Persönlichkeit widerspiegeln.",
   },
   {
     source: <FaChartLine className="cardIcon" />,
-    title: "Echtzeit verfolgen",
+    title: "Live verfolgen",
     desc: "Die Entwicklung wird in Echtzeit verfolgt. Verfolgen Sie jederzeit den Fortschritt Ihrer Website über einen bereitgestellten Link.",
+  },
+];
+
+export const infoCards6 = [
+  {
+    source: <FaUserFriends className="cardIcon" />,
+    title: "Kennenlernen",
+    desc: "Phase 1: Mit der kostenlosen Projektbewertung, dem Ausfüllen des Kontaktformulars oder einem Telefonat beginnen wir mit der ersten Phase des Kennenlernens.",
+  },
+  {
+    source: <FaBriefcase className="cardIcon" />,
+    title: "Besprechung",
+    desc: "Phase 2: Es findet ein Gespräch über alle Anforderungen oder Probleme im Zusammenhang mit dem Projekt statt, sowie Vorschläge zur Lösung aller Anforderungen.",
+  },
+  {
+    source: <FaCalendarAlt className="cardIcon" />,
+    title: "Planung",
+    desc: "Phase 3: Wir setzen Ziele und Prioritäten, erstellen einen Projektplan und identifizieren mögliche Probleme und schließen eine Risikobewertung ab",
+  },
+  {
+    source: <FaHammer className="cardIcon" />,
+    title: "Umsetzung",
+    desc: "Phase 4: Die Entwicklung wird abgeschlossen und einzelne Details aus der vorherigen Phase werden berücksichtigt und ein Testprodukt oder eine Betaversion wird erstellt.",
+  },
+  {
+    source: <FaCheckCircle className="cardIcon" />,
+    title: "Testen",
+    desc: "Phase 5: Sie umfasst das Testen jedes Details in der Betaversion und bereitet sich dann auf die Veröffentlichung der endgültigen Produktversion vor.",
+  },
+  {
+    source: <FaTruckLoading className="cardIcon" />,
+    title: "Auslieferung",
+    desc: "Alles ist bereit. Das abgeschlossene Projekt wird präsentiert und das Produkt geliefert, sobald beide Parteien zufrieden sind.",
   },
 ];
 

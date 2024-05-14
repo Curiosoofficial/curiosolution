@@ -12,17 +12,17 @@ const Maintenance = () => {
         Websites sind zu einem vitalen Bestandteil von Geschäftsstrategien,
         Kommunikation und Informationsaustausch geworden. Oft wird jedoch
         übersehen, dass die Erstellung einer Website nur der erste Schritt im
-        Prozess der digitalen Präsenz ist. Die regelmäßige Wartung einer Website
+        Prozess der digitalen Präsenz ist. Die <span className="font-bold text-accent-yellow">regelmäßige Wartung einer Website</span>
         bleibt häufig im Schatten der Herausforderungen, die mit ihrer
         Erstellung verbunden sind. Dennoch ist es wichtig zu verstehen, dass die
         Wartung einer Website nicht nur eine Verpflichtung ist, sondern auch ein
         entscheidender Faktor für ihre langfristige Effektivität und ihren
         Erfolg. In diesem Text werden wir untersuchen, warum die Wartung einer
-        Website von entscheidender Bedeutung ist und wie sie sich nachhaltig auf
-        Ihre Online-Präsenz und Ihr Geschäft auswirken kann.
+        Website von entscheidender Bedeutung ist und wie sie sich <span className="font-bold text-accent-yellow">nachhaltig auf
+        Ihre Online-Präsenz und Ihr Geschäft auswirken kann</span>.
       </p>
 
-      <div className="grid grid-cols-2 gap-5 py-12">
+      <div className="grid grid-cols-2 gap-7 py-12">
         {infoCards3.map((card) => (
           <InfoCard
             key={card.title}

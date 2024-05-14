@@ -12,8 +12,8 @@ const WhatItNeeds = () => {
         Eine großartige Website sollte über ein gutes Design, relevanten
         hochwertigen Inhalt, Funktionalität, Suchmaschinenoptimierung, mobile
         Optimierung und Sicherheit verfügen. In der heutigen digitalen Ära sind
-        Websites zu einem entscheidenden Element für die erfolgreiche
-        Präsentation von Geschäften, persönlichen Projekten und Ideen auf der
+        Websites zu einem <span className="font-bold text-accent-yellow">entscheidenden Element für die erfolgreiche
+        Präsentation von Geschäften</span>, persönlichen Projekten und Ideen auf der
         ganzen Welt geworden. Eine qualitativ hochwertige Website kann Ihre
         Visitenkarte im Internet sein, aber auch ein leistungsstarkes Werkzeug
         zur Gewinnung von Besuchern, Steigerung des Umsatzes und Ausweitung des
@@ -23,11 +23,11 @@ const WhatItNeeds = () => {
         Design, Inhalt, technische Leistung und Benutzererfahrung. In den
         folgenden Absätzen werden wir die grundlegenden Schritte und wichtigsten
         Komponenten erkunden, die erforderlich sind, um eine großartige Website
-        zu erstellen, die Ihnen dabei hilft, Ihre Ziele im Internet zu
-        erreichen.
+        zu erstellen, die Ihnen dabei hilft, <span className="font-bold text-accent-yellow">Ihre Ziele im Internet zu
+        erreichen</span>.
       </p>
 
-      <div className="grid grid-cols-3 gap-5 py-12">
+      <div className="grid grid-cols-3 gap-7 py-12">
         {infoCards2.map((card) => (
         <InfoCard
           key={card.title}

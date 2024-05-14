@@ -1,6 +1,12 @@
 import React from "react";
 import Button from "./Button";
-import { FaCheck, FaFighterJet, FaPlane, FaRocket, FaTimes } from "react-icons/fa";
+import {
+  FaCheck,
+  FaFighterJet,
+  FaPlane,
+  FaRocket,
+  FaTimes,
+} from "react-icons/fa";
 
 const PriceCard = () => {
   return (
@@ -15,8 +21,8 @@ const PriceCard = () => {
         </div>
 
         <div className="flex items-center justify-center gap-2">
-          <s>79 Chf</s>
-          <p className="h3-bold">69Chf</p>
+          <s className="font-radwave">79 Chf</s>
+          <p className="h3-bold text-accent-yellow font-radwave">69Chf<span className="body-regular text-white">/Monat</span></p>
         </div>
 
         <div className="flex flex-col justify-center items-start gap-2">
@@ -73,8 +79,8 @@ const PriceCard = () => {
         </div>
 
         <div className="flex items-center justify-center gap-2">
-          <s>99 Chf</s>
-          <p className="h3-bold">79Chf</p>
+          <s className="font-radwave">99 Chf</s>
+          <p className="h3-bold text-accent-yellow font-radwave">79Chf<span className="body-regular text-white">/Monat</span></p>
         </div>
 
         <div className="flex flex-col justify-center items-start gap-2">
@@ -131,13 +137,13 @@ const PriceCard = () => {
         </div>
 
         <div className="flex items-center justify-center gap-2">
-          <s>160 Chf</s>
-          <p className="h3-bold">119Chf</p>
+          <s className="font-radwave">160 Chf</s>
+          <p className="h3-bold text-accent-yellow font-radwave">119Chf<span className="body-regular text-white">/Monat</span></p>
         </div>
 
         <div className="flex flex-col justify-center items-start gap-2">
           <div className="flex items-center gap-5">
-            <FaCheck /> <p>5 statische Seiten</p>
+            <FaCheck /> <p>10+ statische Seiten</p>
           </div>
           <div className="flex items-center gap-5">
             <FaCheck /> <p>Responsives Design</p>
@@ -156,7 +162,7 @@ const PriceCard = () => {
           </div>
 
           <div className="flex items-center gap-5">
-            <FaCheck /> <p>SEO-Optimierung</p>
+            <FaCheck /> <p>Pro SEO-Optimierung</p>
           </div>
 
           <div className="flex items-center gap-5">

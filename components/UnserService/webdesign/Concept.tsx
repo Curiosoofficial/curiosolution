@@ -11,16 +11,16 @@ const Concept = () => {
             Schlüssel zur erfolgreichen Website
           </h3>
           <p className="text-text-secondary ">
-            Die Erstellung einer Website ist entscheidend für den Erfolg Ihres
-            Geschäfts im Internet, da sie neue Kunden gewinnt und bestehende
+            <span className="text-accent-yellow font-bold">Die Erstellung einer Website</span> ist entscheidend für den <span className="text-accent-yellow font-semibold">Erfolg Ihres
+            Geschäfts</span> im Internet, da sie neue Kunden gewinnt und bestehende
             bindet. Ziele und Zielgruppe sollten zuerst bedacht werden, um
             Design, Struktur und Funktionen entsprechend anzupassen. Das Design
-            sollte ansprechend und benutzerfreundlich sein, die Struktur klar
-            und logisch. Kontaktmöglichkeiten, Suche und E-Commerce sind
+            sollte <span className="text-accent-yellow font-bold">ansprechend und benutzerfreundlich</span> sein, die Struktur klar
+            und logisch. <span className="text-accent-yellow font-bold">Kontaktmöglichkeiten, Suche und E-Commerce</span> sind
             wichtige Funktionen für die Kundeninteraktion.
-            Suchmaschinenoptimierung (SEO) ist unerlässlich, um in den
+            <span className="text-accent-yellow font-bold"> Suchmaschinenoptimierung (SEO)</span> ist unerlässlich, um in den
             Suchergebnissen sichtbar zu sein. Zusammenfassend erfordert die
-            Website-Erstellung sorgfältiges Nachdenken über Ziele, Design,
+            <span className="text-accent-yellow font-bold"> Website-Erstellung sorgfältiges Nachdenken</span> über Ziele, Design,
             Struktur, Funktionen und SEO, um erfolgreich zu sein und neue Kunden
             anzuziehen.
           </p>
@@ -40,14 +40,14 @@ const Concept = () => {
             Websites mit Stil und Effizienz
           </h3>
           <p className="text-text-secondary ">
-            Träumen Sie davon, die digitale Welt zu erobern? Wir können Ihnen
-            dabei helfen, diesen Traum zu verwirklichen. In einer Welt, in der
-            der erste Eindruck online entsteht, ist Ihre Website Ihre virtuelle
-            Visitenkarte, und wir erstellen sie mit Stil und Effizienz. Unser
+            Träumen Sie davon, die digitale Welt zu erobern? <span className="text-accent-yellow font-bold">Wir können Ihnen
+            dabei helfen</span>, diesen Traum zu verwirklichen. In einer Welt, in der
+            der erste Eindruck online entsteht, <span className="text-accent-yellow font-bold">ist Ihre Website Ihre virtuelle
+            Visitenkarte</span>, und wir erstellen sie mit Stil und Effizienz. Unser
             Team von Experten für die Entwicklung von Websites kombiniert
             Kreativität mit technischem Know-how, um einzigartige digitale
-            Plattformen zu schaffen, die Aufmerksamkeit erregen und einen
-            starken Eindruck hinterlassen. Egal, ob Sie ein kleines Unternehmen,
+            Plattformen zu schaffen, die <span className="text-accent-yellow font-bold">Aufmerksamkeit erregen</span> und einen
+            <span className="text-accent-yellow font-bold">starken Eindruck</span> hinterlassen. Egal, ob Sie ein kleines Unternehmen,
             ein Unternehmer oder ein großes Unternehmen sind, unsere Websites
             sind auf Ihre Bedürfnisse zugeschnitten.
           </p>
