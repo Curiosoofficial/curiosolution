@@ -1,3 +1,4 @@
+import Button from "@/components/ui/Button"
 import InfoCard from "@/components/ui/InfoCard"
 import { infoCards5 } from "@/constants/infoCards"
 import React from 'react'
@@ -20,6 +21,10 @@ const WhyUs = () => {
       </div>
 
       <p className="text-center text-text-secondary">Wir sind nicht nur ein Team für die Erstellung von Websites. Wir sind Ihre Partner in der digitalen Welt, bereit, Ihnen zu helfen, Ihre Ziele zu erreichen. Erlauben Sie uns zu zeigen, wie Sorgfalt, Qualität und Individualität zusammenkommen können, um Ihre Website zu etwas mehr als nur gewöhnlichem zu machen.</p>
+    
+      <div className="pt-12">
+        <Button />
+      </div>
     </section>
   )
 }
