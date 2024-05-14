@@ -28,11 +28,17 @@
 .cardIcon {
   font-size: 80px;
   background-color: #f6b110;
-  
   padding: 20px;
   border-radius: 20%;
- 
 }
+
+.cardIconVertical {
+  font-size: 120px;
+  background-color: #f6b110;
+  padding: 20px;
+  border-radius: 20%;
+}
+
 
 .dropdown-menu {
   position: absolute;
